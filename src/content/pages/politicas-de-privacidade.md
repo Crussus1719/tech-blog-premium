@@ -1,19 +1,35 @@
 ---
-title: "Políticas de Privacidade"
+title: Políticas de Privacidade
 ---
+Política Privacidade
+A sua privacidade é importante para nós. É política do Stride Media Global respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Stride Media Global, e outros sites que possuímos e operamos.
 
-# Políticas de Privacidade
+Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
 
-A sua privacidade é importante para nós. É política do TechBlog respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site TechBlog.
+Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
 
-## 1. Coleta de Informações
-Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento.
+Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
 
-## 2. Cookies e Google AdSense
-O Google, como fornecedor de terceiros, utiliza cookies para exibir anúncios no nosso site. Com o cookie DART, o Google pode exibir anúncios para seus usuários com base nas visitas feitas ao TechBlog e a outros sites na Internet. Os usuários podem desativar o cookie DART visitando a Política de Privacidade da rede de conteúdo e anúncios do Google.
+O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.
 
-## 3. Uso de Dados por Terceiros
-Trabalhamos com parceiros de publicidade que podem utilizar tecnologias como cookies e web beacons quando anunciam em nosso site, o que também enviará a esses anunciantes (como o Google através do Google AdSense) informações sobre seu endereço IP, seu ISP, o navegador que você usou para visitar nosso site e, em alguns casos, se você tem o Flash instalado.
+Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
 
-## 4. Consentimento
-O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.
+O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.
+
+
+O serviço Google AdSense que usamos para veicular publicidade usa um cookie DoubleClick para veicular anúncios mais relevantes em toda a Web e limitar o número de vezes que um determinado anúncio é exibido para você.
+Para mais informações sobre o Google AdSense, consulte as FAQs oficiais sobre privacidade do Google AdSense.
+Utilizamos anúncios para compensar os custos de funcionamento deste site e fornecer financiamento para futuros desenvolvimentos. Os cookies de publicidade comportamental usados ​​por este site foram projetados para garantir que você forneça os anúncios mais relevantes sempre que possível, rastreando anonimamente seus interesses e apresentando coisas semelhantes que possam ser do seu interesse.
+Vários parceiros anunciam em nosso nome e os cookies de rastreamento de afiliados simplesmente nos permitem ver se nossos clientes acessaram o site através de um dos sites de nossos parceiros, para que possamos creditá-los adequadamente e, quando aplicável, permitir que nossos parceiros afiliados ofereçam qualquer promoção que pode fornecê-lo para fazer uma compra.
+
+
+Compromisso do Usuário
+O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Stride Media Global oferece no site e com caráter enunciativo, mas não limitativo:
+
+A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
+B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, jogos de sorte ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Stride Media Global, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
+Mais informações
+Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.
+
+Esta política é efetiva a partir de 16 May 2026 05:50
