@@ -1,0 +1,49 @@
+---
+interface Props {
+	title: string;
+	excerpt: string;
+	image: string;
+	slug: string;
+	date: Date;
+}
+
+const { title, excerpt, image, slug, date } = Astro.props;
+const formattedDate = date.toLocaleDateString('pt-BR', {
+	day: '2-digit',
+	month: 'long',
+	year: 'numeric'
+});
+---
+
+<a href={`/blog/${slug}`} class="group perspective">
+	<article class="relative bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 transform-gpu preserve-3d group-hover:rotate-x-2 group-hover:rotate-y-2 border border-black/5 h-full flex flex-col">
+		<div class="relative aspect-video overflow-hidden">
+			<img src={image} alt={title} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+			<div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+		</div>
+		
+		<div class="p-8 flex-grow flex flex-col">
+			<time class="text-xs font-semibold text-[#C36E46] uppercase tracking-wider mb-2">{formattedDate}</time>
+			<h2 class="text-xl font-bold font-heading mb-4 text-gray-900 group-hover:text-[#C36E46] transition-colors">{title}</h2>
+			<p class="text-gray-600 line-clamp-3 mb-6 text-sm flex-grow">{excerpt}</p>
+			
+			<div class="mt-auto">
+				<span class="inline-block px-6 py-2 bg-[#F9F1DC] text-[#C36E46] rounded-full text-xs font-bold uppercase tracking-widest border border-[#C36E46]/20 group-hover:bg-[#C36E46] group-hover:text-white transition-all duration-300">
+					Ler Artigo
+				</span>
+			</div>
+		</div>
+	</article>
+</a>
+
+<style>
+	.perspective {
+		perspective: 1000px;
+	}
+	.preserve-3d {
+		transform-style: preserve-3d;
+	}
+	.rotate-x-2 {
+		transform: rotateX(4deg) rotateY(-4deg);
+	}
+</style>
