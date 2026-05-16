@@ -1,0 +1,126 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+	image?: string;
+	canonicalURL?: URL;
+}
+
+const {
+	title,
+	description = "Blog de Tecnologia Descomplicada - Performance e Inovação",
+	image = "/assets/blog/default-og.jpg",
+	canonicalURL = new URL(Astro.url.pathname, Astro.site),
+} = Astro.props;
+
+const siteTitle = "Tech Premium Blog";
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+
+		<!-- SEO Técnico -->
+		<title>{title} | {siteTitle}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonicalURL} />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={new URL(image, Astro.url)} />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content={Astro.url} />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+		<!-- Google Fonts: Inter & Outfit -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700&display=swap" rel="stylesheet" />
+
+		<!-- Netlify Identity Widget -->
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+		<!-- Google AdSense Tag Placeholder -->
+		<!-- 
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script> 
+		-->
+
+		<style is:global>
+			:root {
+				--color-bg: #F9F1DC;
+				--color-primary: #C36E46;
+				--color-text: #2D2D2D;
+			}
+			body {
+				background-color: var(--color-bg);
+				color: var(--color-text);
+				font-family: 'Inter', sans-serif;
+			}
+			h1, h2, h3, .font-heading {
+				font-family: 'Outfit', sans-serif;
+			}
+		</style>
+	</head>
+	<body class="min-h-screen flex flex-col">
+		<header class="py-6 px-4 md:px-8 bg-white/50 backdrop-blur-md sticky top-0 z-50 border-b border-black/5">
+			<nav class="max-w-7xl mx-auto flex justify-between items-center">
+				<a href="/" class="text-2xl font-bold font-heading text-[#C36E46]">Tech<span class="text-gray-800">Blog</span></a>
+				<ul class="hidden md:flex gap-8 items-center">
+					<li><a href="/" class="hover:text-[#C36E46] transition-colors">Home</a></li>
+					<li><a href="/contato" class="px-6 py-2 bg-[#C36E46] text-white rounded-full font-semibold hover:bg-[#A35D3B] transition-all shadow-lg hover:shadow-[#C36E46]/20">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="flex-grow">
+			<slot />
+		</main>
+
+		<footer class="bg-gray-900 text-[#F9F1DC] py-12 mt-20">
+			<div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+				<div>
+					<h3 class="text-2xl font-bold font-heading mb-4">TechBlog</h3>
+					<p class="text-gray-400 max-w-xs">Simplificando a tecnologia para o seu dia a dia. Alta performance e inovação em cada artigo.</p>
+				</div>
+				<div>
+					<h4 class="font-bold mb-4">Links Úteis</h4>
+					<ul class="space-y-2 text-gray-400">
+						<li><a href="/termos-de-uso" class="hover:text-[#C36E46]">Termos de Uso</a></li>
+						<li><a href="/politicas-de-privacidade" class="hover:text-[#C36E46]">Privacidade</a></li>
+					</ul>
+				</div>
+				<div>
+					<h4 class="font-bold mb-4">Monetização</h4>
+					<p class="text-gray-400 text-sm">Este blog utiliza Google AdSense. Saiba mais em nossa Política de Privacidade.</p>
+				</div>
+			</div>
+			<div class="max-w-7xl mx-auto px-4 md:px-8 mt-12 pt-8 border-t border-white/10 text-center text-sm text-gray-500">
+				&copy; {new Date().getFullYear()} Tech Premium Blog. Todos os direitos reservados.
+			</div>
+		</footer>
+
+		<script>
+			if (window.netlifyIdentity) {
+				window.netlifyIdentity.on("init", (user: any) => {
+					if (!user) {
+						window.netlifyIdentity.on("login", () => {
+							document.location.href = "/admin/";
+						});
+					}
+				});
+			}
+		</script>
+	</body>
+</html>
