@@ -1,19 +1,48 @@
 ---
-title: "Termos de Uso"
+title: Termos de Uso
 ---
+1. Termos
 
-# Termos de Uso
+Ao acessar ao site Stride Media Global, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.
 
-Seja bem-vindo ao TechBlog. Ao acessar este blog, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis.
+2. Uso de Licença
 
-## 1. Licença de Uso
-É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site TechBlog, apenas para visualização pessoal e não comercial transitória.
+É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site Stride Media Global , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode: 
 
-## 2. Isenção de Responsabilidade
-Os materiais no site do TechBlog são fornecidos 'como estão'. TechBlog não oferece garantias, expressas ou implícitas, e por este meio isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização.
+modificar ou copiar os materiais; 
 
-## 3. Google AdSense
-Este site utiliza o Google AdSense para exibir anúncios. Como usuário, você concorda que o Google pode utilizar cookies para veicular anúncios baseados em suas visitas anteriores a este ou outros sites.
+usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial); 
 
-## 4. Limitações
-Em nenhum caso o TechBlog ou seus fornecedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em TechBlog.
+tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Stride Media Global; 
+
+remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou 
+
+transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.
+
+Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Stride Media Global a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou impresso.
+
+3. Isenção de responsabilidade
+
+Os materiais no site da Stride Media Global são fornecidos 'como estão'. Stride Media Global não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.
+
+Além disso, o Stride Media Global não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ​​ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.
+
+4. Limitações
+
+Em nenhum caso o Stride Media Global ou seus fornecedores serão responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em Stride Media Global, mesmo que Stride Media Global ou um representante autorizado da Stride Media Global tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem não se aplicar a você.
+
+5. Precisão dos materiais
+
+Os materiais exibidos no site da Stride Media Global podem incluir erros técnicos, tipográficos ou fotográficos. Stride Media Global não garante que qualquer material em seu site seja preciso, completo ou atual. Stride Media Global pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. No entanto, Stride Media Global não se compromete a atualizar os materiais.
+
+6. Links
+
+O Stride Media Global não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por Stride Media Global do site. O uso de qualquer site vinculado é por conta e risco do usuário.
+
+Modificações
+
+O Stride Media Global pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço.
+
+Lei aplicável
+
+Estes termos e condições são regidos e interpretados de acordo com as leis do Stride Media Global e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.
