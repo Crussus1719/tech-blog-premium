@@ -13,12 +13,13 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Data de Publicação", name: "date", widget: "datetime" }
-      - { label: "Thumbnail", name: "image", widget: "image" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["Tecnologia"] }
-      - { label: "Meta Description", name: "seo_description", widget: "text" }
-      - { label: "Corpo do Texto", name: "body", widget: "markdown" }
+      - { label: "Descrição SEO", name: "seo_description", widget: "text", required: false }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Autor", name: "author", widget: "string", default: "Victor Hugo" }
+      - { label: "Categoria", name: "category", widget: "select", options: ["Apps e Dicas", "Inteligência Artificial", "Tecnologia Automotiva", "Notícias Tech"], default: "Notícias Tech" }
+      - { label: "Imagem de Destaque", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", default: ["Tech", "Premium"] }
+      - { label: "Corpo do Artigo", name: "body", widget: "markdown" }
 
   - name: "pages"
     label: "Páginas Fixas"
@@ -27,4 +28,5 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Corpo do Texto", name: "body", widget: "markdown" }
+      - { label: "Descrição", name: "description", widget: "text", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
