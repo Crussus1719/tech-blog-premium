@@ -1,0 +1,47 @@
+---
+---
+<div id="cookie-banner" class="fixed bottom-6 right-6 left-6 md:right-10 md:left-auto md:w-96 bg-[#F9F1DC] border-2 border-[#C36E46] p-6 rounded-3xl shadow-2xl z-50 transform translate-y-20 opacity-0 transition-all duration-500 ease-out">
+  <div class="flex flex-col gap-4">
+    <div class="flex items-center gap-3">
+      <div class="bg-[#C36E46] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <h3 class="font-bold text-[#4A4A4A]">Privacidade e Cookies</h3>
+    </div>
+    <p class="text-sm text-[#5A5A5A] leading-relaxed">
+      Nós utilizamos cookies para personalizar sua experiência e analisar nosso tráfego de acordo com as normas da LGPD. Ao continuar, você concorda com o uso de cookies.
+    </p>
+    <div class="flex gap-3 mt-2">
+      <button id="accept-cookies" class="flex-1 bg-[#C36E46] text-white py-3 px-6 rounded-full font-semibold hover:bg-[#A65B38] transition-colors shadow-lg active:scale-95">
+        Aceitar
+      </button>
+      <a href="/politicas-de-privacidade" class="flex-1 text-center py-3 px-6 rounded-full border-2 border-[#C36E46] text-[#C36E46] font-semibold hover:bg-[#C36E46] hover:text-white transition-all">
+        Saiba mais
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('accept-cookies');
+
+  // Check if consent was already given
+  if (!localStorage.getItem('cookie-consent')) {
+    setTimeout(() => {
+      banner?.classList.remove('translate-y-20', 'opacity-0');
+    }, 1000);
+  } else {
+    banner?.classList.add('hidden');
+  }
+
+  acceptBtn?.addEventListener('click', () => {
+    localStorage.setItem('cookie-consent', 'true');
+    banner?.classList.add('translate-y-20', 'opacity-0');
+    setTimeout(() => {
+      banner?.classList.add('hidden');
+    }, 500);
+  });
+</script>

@@ -1,4 +1,6 @@
 ---
+import CookieBanner from '../components/CookieBanner.astro';
+
 interface Props {
 	title: string;
 	description?: string;
@@ -79,6 +81,7 @@ const siteTitle = "Tech Premium Blog";
 				<a href="/" class="text-2xl font-bold font-heading text-[#C36E46]">Tech<span class="text-gray-800">Blog</span></a>
 				<ul class="hidden md:flex gap-8 items-center">
 					<li><a href="/" class="hover:text-[#C36E46] transition-colors">Home</a></li>
+					<li><a href="/sobre" class="hover:text-[#C36E46] transition-colors">Sobre</a></li>
 					<li><a href="/contato" class="px-6 py-2 bg-[#C36E46] text-white rounded-full font-semibold hover:bg-[#A35D3B] transition-all shadow-lg hover:shadow-[#C36E46]/20">Contato</a></li>
 				</ul>
 			</nav>
@@ -122,5 +125,6 @@ const siteTitle = "Tech Premium Blog";
 				});
 			}
 		</script>
+		<CookieBanner />
 	</body>
 </html>
