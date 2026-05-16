@@ -6,9 +6,13 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
+
+// AdSense Placeholder for Home
+const showHomeAd = true;
 ---
 
 <BaseLayout title="Tecnologia Descomplicada para o seu Dia a Dia">
+	<!-- Hero Section -->
 	<section class="py-20 px-4 md:px-8 bg-gradient-to-br from-[#F9F1DC] to-[#f5ebcf]">
 		<div class="max-w-4xl mx-auto text-center">
 			<span class="inline-block px-4 py-1 bg-[#C36E46]/10 text-[#C36E46] rounded-full text-sm font-bold uppercase tracking-widest mb-6">Explore o Futuro</span>
@@ -18,12 +22,14 @@ const posts = (await getCollection('blog')).sort(
 		</div>
 	</section>
 
+	<!-- Ad Space Top -->
 	<div class="max-w-7xl mx-auto px-4 py-8">
 		<div class="w-full h-24 bg-gray-100 rounded-2xl flex items-center justify-center border-2 border-dashed border-gray-300 text-gray-400 text-sm italic">
 			Espaço Publicitário (AdSense Topo)
 		</div>
 	</div>
 
+	<!-- Main Grid -->
 	<section id="artigos" class="py-20 px-4 md:px-8 max-w-7xl mx-auto">
 		<div class="flex justify-between items-end mb-12">
 			<div>
@@ -46,5 +52,19 @@ const posts = (await getCollection('blog')).sort(
 				/>
 			))}
 		</div>
+
+		<!-- Pagination Placeholder -->
+		<div class="mt-20 flex justify-center gap-4">
+			<span class="w-12 h-12 flex items-center justify-center rounded-full bg-[#C36E46] text-white font-bold">1</span>
+			<a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-200 hover:border-[#C36E46] hover:text-[#C36E46] transition-all">2</a>
+			<a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-200 hover:border-[#C36E46] hover:text-[#C36E46] transition-all">3</a>
+		</div>
 	</section>
+
+	<!-- Ad Space Bottom -->
+	<div class="max-w-7xl mx-auto px-4 py-8 mb-20">
+		<div class="w-full h-64 bg-gray-100 rounded-3xl flex items-center justify-center border-2 border-dashed border-gray-300 text-gray-400 text-sm italic">
+			Espaço Publicitário (AdSense Retângulo Grande)
+		</div>
+	</div>
 </BaseLayout>
